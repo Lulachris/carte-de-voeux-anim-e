@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css.css" />
+    
+</head>
+<body>
+        <script>var animationMedium = .15;
+                var animationFast = .05;
+                
+                //m
+                var selector1 = document.querySelector('#mbar-start');
+                var dot1 = MorphSVGPlugin.convertToPath( selector1 );
+                var end1 = '#mbar';
+                
+                var selector2 = document.querySelector('#m-hump-one-left-start');
+                var dot2 = MorphSVGPlugin.convertToPath( selector2 );
+                var end2 = '#m-hump-one-left';
+                
+                var selector3 = document.querySelector('#m-hump-one-right-start');
+                var dot3 = MorphSVGPlugin.convertToPath( selector3 );
+                var end3 = '#m-hump-one-right';
+                
+                var selector4 = document.querySelector('#m-hump-two-left-start');
+                var dot4 = MorphSVGPlugin.convertToPath( selector4 );
+                var end4 = '#m-hump-two-left';
+                
+                var selector5 = document.querySelector('#m-hump-two-right-start');
+                var dot5 = MorphSVGPlugin.convertToPath( selector5 );
+                var end5 = '#m-hump-two-right';
+                
+                animationOne();
+                
+                function animationOne(){
+                  TweenLite.to(dot1, animationMedium, {
+                    morphSVG: end1,
+                    onComplete: animationTwo
+                  });
+                }
+                
+                function animationTwo(){
+                  TweenLite.to(dot2, animationMedium, {
+                    morphSVG: end2,
+                    onComplete: animationThree
+                  });
+                }
+                
+                function animationThree(){
+                  TweenLite.to(dot3, animationMedium, {
+                    morphSVG: end3,
+                    onComplete: animationFour
+                  });
+                }
+                
+                function animationFour(){
+                  TweenLite.to(dot4, animationMedium, {
+                    morphSVG: end4,
+                    onComplete: animationFive
+                  });
+                }
+                
+                function animationFive(){
+                  TweenLite.to(dot5, animationMedium, {
+                    morphSVG: end5,
+                    onComplete: animationSix
+                  });
+                }
+                
+                //e
+                var selector6 = document.querySelector('#e-line-1-start');
+                var dot6 = MorphSVGPlugin.convertToPath( selector6 );
+                var end6 = '#e-line-1';
+                
+                var selector7 = document.querySelector('#e-line-2-start');
+                var dot7 = MorphSVGPlugin.convertToPath( selector7 );
+                var end7 = '#e-line-2';
+                
+                var selector8 = document.querySelector('#e-line-3-start');
+                var dot8 = MorphSVGPlugin.convertToPath( selector8 );
+                var end8 = '#e-line-3';
+                
+                var selector9 = document.querySelector('#e-line-4-start');
+                var dot9 = MorphSVGPlugin.convertToPath( selector9 );
+                var end9 = '#e-line-4';
+                
+                var selector10 = document.querySelector('#e-line-5-start');
+                var dot10 = MorphSVGPlugin.convertToPath( selector10 );
+                var end10 = '#e-line-5';
+                
+                var selector11 = document.querySelector('#e-line-6-start');
+                var dot11 = MorphSVGPlugin.convertToPath( selector11 );
+                var end11 = '#e-line-6';
+                
+                function animationSix(){
+                  TweenLite.to(dot6, animationMedium, {
+                    morphSVG: end6,
+                    onComplete: animationSeven
+                  });
+                }
+                
+                function animationSeven(){
+                  TweenLite.to(dot7, animationFast, {
+                    morphSVG: end7,
+                    onComplete: animationEight
+                  });
+                }
+                
+                function animationEight(){
+                  TweenLite.to(dot8, animationFast, {
+                    morphSVG: end8,
+                    onComplete: animationNine
+                  });
+                }
+                
+                function animationNine(){
+                  TweenLite.to(dot9, animationFast, {
+                    morphSVG: end9,
+                    onComplete: animationTen
+                  });
+                }
+                
+                function animationTen(){
+                  TweenLite.to(dot10, animationMedium, {
+                    morphSVG: end10,
+                    onComplete: animationEleven
+                  });
+                }
+                
+                function animationEleven(){
+                  TweenLite.to(dot11, animationMedium, {
+                    morphSVG: end11,
+                    onComplete: animationTwelve
+                  });
+                }
+                
+                //m
+                var selector12 = document.querySelector('#m-line-1-start_1_');
+                var dot12 = MorphSVGPlugin.convertToPath( selector12 );
+                var end12 = '#m-line-1';
+                
+                var selector13 = document.querySelector('#m-line-2-start');
+                var dot13 = MorphSVGPlugin.convertToPath( selector13 );
+                var end13 = '#m-line-2';
+                
+                var selector14 = document.querySelector('#m-line-3-start');
+                var dot14 = MorphSVGPlugin.convertToPath( selector14 );
+                var end14 = '#m-line-3';
+                
+                var selector15 = document.querySelector('#m-line-4-start');
+                var dot15 = MorphSVGPlugin.convertToPath( selector15 );
+                var end15 = '#m-line-4';
+                
+                var selector16 = document.querySelector('#m-line-5-start');
+                var dot16 = MorphSVGPlugin.convertToPath( selector16 );
+                var end16 = '#m-line-5';
+                
+                var selector17 = document.querySelector('#m-line-6-start');
+                var dot17 = MorphSVGPlugin.convertToPath( selector17 );
+                var end17 = '#m-line-6';
+                
+                var selector18 = document.querySelector('#m-line-7-start');
+                var dot18 = MorphSVGPlugin.convertToPath( selector18 );
+                var end18 = '#m-line-7';
+                
+                
+                function animationTwelve(){
+                  TweenLite.to( dot12, animationMedium, {
+                    morphSVG: end12,
+                    onComplete: animationThirteen
+                  });
+                }
+                
+                function animationThirteen(){
+                  TweenLite.to(dot13, animationMedium, {
+                    morphSVG: end13,
+                    onComplete: animationFourteen
+                  });
+                }
+                
+                function animationFourteen(){
+                  TweenLite.to(dot14, animationFast, {
+                    morphSVG: end14,
+                    onComplete: animationFifteen
+                  });
+                }
+                
+                function animationFifteen(){
+                  TweenLite.to(dot15, animationMedium, {
+                    morphSVG: end15,
+                    onComplete: animationSixteen
+                  });
+                }
+                
+                function animationSixteen(){
+                  TweenLite.to(dot16, animationMedium, {
+                    morphSVG: end16,
+                    onComplete: animationSeventeen
+                  });
+                }
+                
+                function animationSeventeen(){
+                  TweenLite.to(dot17, animationMedium, {
+                    morphSVG: end17,
+                    onComplete: animationEighteen
+                  });
+                }
+                
+                function animationEighteen(){
+                  TweenLite.to(dot18, animationMedium, {
+                    morphSVG: end18,
+                    onComplete: animationNineteen
+                  });
+                }
+                
+                //o
+                var selector19 = document.querySelector('#o-line-1-start');
+                var dot19 = MorphSVGPlugin.convertToPath( selector19 );
+                var end19 = '#o-line-1';
+                
+                var selector20 = document.querySelector('#o-line-2-start');
+                var dot20 = MorphSVGPlugin.convertToPath( selector20 );
+                var end20 = '#o-line-2';
+                
+                var selector21 = document.querySelector('#o-line-3-start');
+                var dot21 = MorphSVGPlugin.convertToPath( selector21 );
+                var end21 = '#o-line-3';
+                
+                function animationNineteen(){
+                  TweenLite.to(dot19, animationMedium, {
+                    morphSVG: end19,
+                    onComplete: animationTwenty
+                  });
+                }
+                
+                function animationTwenty(){
+                  TweenLite.to(dot20, animationMedium, {
+                    morphSVG: end20,
+                    onComplete: animationTwentyOne
+                  });
+                }
+                
+                function animationTwentyOne(){
+                  TweenLite.to(dot21, animationFast, {
+                    morphSVG: end21,
+                    onComplete: animationTwentyTwo
+                  });
+                }
+                
+                //r
+                var selector22 = document.querySelector('#r-line-1-start_7_');
+                var dot22 = MorphSVGPlugin.convertToPath( selector22 );
+                var end22 = '#r-line-1_7_';
+                
+                var selector23 = document.querySelector('#r-line-2-start_7_');
+                var dot23 = MorphSVGPlugin.convertToPath( selector23 );
+                var end23 = '#r-line-2_7_';
+                
+                var selector24 = document.querySelector('#r-line-3-start_7_');
+                var dot24 = MorphSVGPlugin.convertToPath( selector24 );
+                var end24 = '#r-line-3_7_';
+                
+                var selector25 = document.querySelector('#r-line-4-start_7_');
+                var dot25 = MorphSVGPlugin.convertToPath( selector25 );
+                var end25 = '#r-line-4_7_';
+                
+                
+                function animationTwentyTwo(){
+                  TweenLite.to(dot22, animationMedium, {
+                    morphSVG: end22,
+                    onComplete: animation23
+                  });
+                }
+                
+                function animation23(){
+                  TweenLite.to(dot23, animationFast, {
+                    morphSVG: end23,
+                    onComplete: animation24
+                  });
+                }
+                
+                function animation24(){
+                  TweenLite.to(dot24, animationMedium, {
+                    morphSVG: end24,
+                    onComplete: animation25
+                  });
+                }
+                
+                function animation25(){
+                  TweenLite.to(dot25, animationMedium, {
+                    morphSVG: end25,
+                    onComplete: animation26
+                  });
+                }
+                
+                //i
+                var selector26 = document.querySelector('#i-line-1-start');
+                var dot26 = MorphSVGPlugin.convertToPath( selector26 );
+                var end26 = '#i-line-1';
+                
+                var selector27 = document.querySelector('#i-line-2-start_1_');
+                var dot27 = MorphSVGPlugin.convertToPath( selector27 );
+                var end27 = '#i-line-2';
+                
+                function animation26(){
+                  TweenLite.to(dot26, animationMedium, {
+                    morphSVG: end26,
+                    onComplete: animation27
+                  });
+                }
+                
+                function animation27(){
+                  TweenLite.to(dot27, animationMedium, {
+                    morphSVG: end27,
+                    onComplete: animation28
+                  });
+                }
+                
+                //e
+                var selector28 = document.querySelector('#e-line-1-start_1_');
+                var dot28 = MorphSVGPlugin.convertToPath( selector28 );
+                var end28 = '#e-line-1_1_';
+                
+                var selector29 = document.querySelector('#e-line-2-start_1_');
+                var dot29 = MorphSVGPlugin.convertToPath( selector29 );
+                var end29 = '#e-line-2_1_';
+                
+                var selector30 = document.querySelector('#e-line-3-start_1_');
+                var dot30 = MorphSVGPlugin.convertToPath( selector30 );
+                var end30 = '#e-line-3_1_';
+                
+                var selector31 = document.querySelector('#e-line-4-start_1_');
+                var dot31 = MorphSVGPlugin.convertToPath( selector31 );
+                var end31 = '#e-line-4_1_';
+                
+                var selector32 = document.querySelector('#e-line-5-start_1_');
+                var dot32 = MorphSVGPlugin.convertToPath( selector32 );
+                var end32 = '#e-line-5_1_';
+                
+                function animation28(){
+                  TweenLite.to(dot28, animationFast, {
+                    morphSVG: end28,
+                    onComplete: animation29
+                  });
+                }
+                
+                function animation29(){
+                  TweenLite.to(dot29, animationFast, {
+                    morphSVG: end29,
+                    onComplete: animation30
+                  });
+                }
+                
+                function animation30(){
+                  TweenLite.to(dot30, animationFast, {
+                    morphSVG: end30,
+                    onComplete: animation31
+                  });
+                }
+                
+                function animation31(){
+                  TweenLite.to(dot31, animationMedium, {
+                    morphSVG: end31,
+                    onComplete: animation32
+                  });
+                }
+                
+                function animation32(){
+                  TweenLite.to(dot32, animationMedium, {
+                    morphSVG: end32,
+                    onComplete: animation33
+                  });
+                }
+                
+                //s
+                var selector33 = document.querySelector('#s-line-1-start');
+                var dot33 = MorphSVGPlugin.convertToPath( selector33 );
+                var end33 = '#s-line-1';
+                
+                var selector34 = document.querySelector('#s-line-2-start');
+                var dot34 = MorphSVGPlugin.convertToPath( selector34 );
+                var end34 = '#s-line-2';
+                
+                var selector35 = document.querySelector('#s-line-3-start');
+                var dot35 = MorphSVGPlugin.convertToPath( selector35 );
+                var end35 = '#s-line-3';
+                
+                function animation33(){
+                  TweenLite.to(dot33, animationMedium, {
+                    morphSVG: end33,
+                    onComplete: animation34
+                  });
+                }
+                
+                function animation34(){
+                  TweenLite.to(dot34, animationFast, {
+                    morphSVG: end34,
+                    onComplete: animation35
+                  });
+                }
+                
+                function animation35(){
+                  TweenLite.to(dot35, animationMedium, {
+                    morphSVG: end35,
+                    onComplete: animation36
+                  });
+                }
+                
+                // i dot
+                var selector36 = document.querySelector('#i-dot-start');
+                var dot36 = MorphSVGPlugin.convertToPath( selector36 );
+                var end36 = '#i_dot';
+                
+                function animation36(){
+                  TweenLite.to(dot36, animationMedium, {
+                    morphSVG: end36,
+                    // onComplete: animation37
+                  });
+                }
+                </script>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 792">
+                    <g id="dot_1_">
+                        <path id="i-dot-start" d="M504.909,338.143c0.698,0.576-0.258,1.042-0.876,0.958c-0.419-0.057-0.286-0.476-0.064-0.669
+                            C504.24,338.197,504.567,338.143,504.909,338.143C505.018,338.231,504.802,338.143,504.909,338.143z"/>
+                        <path id="i_dot" d="M508.397,334.408c6.083,5.021-2.246,9.078-7.629,8.353c-3.653-0.493-2.5-4.146-0.562-5.829
+                            C502.565,334.884,505.416,334.408,508.397,334.408C509.338,335.186,507.465,334.408,508.397,334.408z"/>
+                    </g>
+                    <g id="s">
+                        <path id="s-line-3" d="M545.812,399.196c5.256-3.28,9.521-4.805,17.532-4.788l-0.027-3.141c-0.28,0.771-1.05,1.227-2.895,1.465
+                            c-5.316,0.687-10.555,2.215-15.21,4.917c-4.31,2.501-11.852,7.874-11.775,13.53c0.021,1.696,0.625,2.94,1.562,3.864l1.877-1.446
+                            C532.098,409.586,542.912,401.006,545.812,399.196z"/>
+                        <circle id="s-line-3-start" cx="536.499" cy="414.706" r="0.278"/>
+                        <path id="s-line-2" d="M556.472,409.557c-4.793,4.933-11.312,8.021-17.034,5.58c-0.812-0.346-1.606-0.803-2.38-1.382
+                            c-0.066-0.05-0.12-0.104-0.182-0.156l-1.877,1.446c0.719,0.71,1.634,1.229,2.652,1.602c2.167,0.794,4.773,0.95,6.835,0.954
+                            c4.431,0.009,8.902-1.043,13.063-2.895L556.472,409.557z"/>
+                        <circle id="s-line-2-start" cx="557.551" cy="411.734" r="0.278"/>
+                        <path id="s-line-1" d="M574.886,377.438c-0.511-3.008-0.882-6.083-0.65-9.295c0.013-0.177,0.046-0.381,0.09-0.602l-11.102,7.046
+                            c0,1.711,0,3.423,0,5.134c0,2.238,0,4.476,0,6.714c0,2.294,0.458,3.83,0.094,4.832l0.027,3.141c0.007,0,0.015,0,0.021,0
+                            c0.038,0.506,0.025,1.03-0.008,1.56V396l-0.003,0.003c-0.302,4.433-3.028,9.586-6.885,13.554l1.079,5.149
+                            c6.729-2.994,12.641-8.095,16.22-14.29C578.407,392.392,576.192,385.132,574.886,377.438z"/>
+                        <circle id="s-line-1-start" cx="570.443" cy="369.456" r="0.278"/>
+                    </g>
+                    <g id="e_1_">
+                        <path id="e-line-5_1_" d="M571.146,364.532c-3.99,3.189-7.697,6.77-11.436,10.271c-0.678,0.635-1.354,1.273-2.037,1.9
+                            c-9.901,9.094-19.369,19.133-30.771,26.381c-10.681,6.79-24.275,13.083-37.216,12.053c-4.26-0.339-5.702-2.119-5.588-4.552
+                            l-1.514,5.109c8.893,3.066,24.701-1.096,32.652-4.447c17.771-7.494,31.302-21.143,45.187-34.072
+                            c0.932-0.866,1.862-1.729,2.797-2.587l11.102-7.046C574.85,364.908,577.19,359.706,571.146,364.532z"/>
+                        <circle id="e-line-5-start_1_" cx="483" cy="413.873" r="0.278"/>
+                        <path id="e-line-4_1_" d="M530.473,367.775c-0.774,0.057-1.542,0.136-2.284,0.234c-1.657,0.219-3.202,0.512-4.467,0.766
+                            c-13.133,2.635-24.202,9.384-34.028,17.959c-1.813,1.582-3.589,3.219-5.321,4.911c-2.411,2.355-5.143,4.453-8.001,6.413l1.041,2.05
+                            c0.002-0.001,0.004-0.002,0.005-0.003c0,0.001,0,0.002-0.001,0.004c-0.797,2.333-1.2,4.364-1.274,6.135
+                            c-0.216,5.157,2.397,8.055,6.447,9.452l1.515-5.109c0.059-1.223,0.511-2.61,1.198-4.062c0.641-1.348,1.479-2.75,2.398-4.131
+                            c2.08-3.123,5.97-8.108,5.95-8.082l4.685-4.701c1.543-1.543,6.46-5.743,10.291-8.671c5.544-4.238,13.365-9.325,20.938-10.657
+                            c0.646-0.114,1.292-0.205,1.934-0.261L530.473,367.775z"/>
+                        <circle id="e-line-4-start_1_" cx="531.219" cy="368.317" r="0.278"/>
+                        <path id="e-line-3_1_" d="M542.525,372.58c-0.117-0.294-0.25-0.588-0.416-0.878c-2.113-3.701-7.024-4.267-11.638-3.926l1.024,2.244
+                            c0.616-0.054,1.229-0.086,1.838-0.082c4.196,0.034,5.184,1.608,4.54,3.772L542.525,372.58z"/>
+                        <circle id="e-line-3-start_1_" cx="540" cy="372.874" r="0.278"/>
+                        <path id="e-line-2_1_" d="M542.525,372.58l-4.65,1.13c-0.146,0.493-0.377,1.016-0.676,1.56c-2.282,4.156-8.454,9.454-10.259,10.895
+                            c-6.215,4.961-14.466,9.078-20.842,9.906l0.218,3.634c9.852-0.302,21.472-6.734,27.177-11.25c3.53-2.794,9.54-8.19,9.499-13.485
+                            C542.986,374.168,542.84,373.368,542.525,372.58z"/>
+                        <circle id="e-line-2-start_1_" cx="506.1" cy="397.861" r="0.278"/>
+                        <path id="e-line-1_1_" d="M506.1,396.071c-0.703,0.091-1.386,0.145-2.039,0.151c-0.07,0-0.146,0.009-0.218,0.009
+                            c-0.13,0-0.486-0.054-0.497-0.056c-0.016-0.003-0.03-0.006-0.047-0.009c-0.388-0.074-1.423-0.425-1.443-0.433
+                            c-0.521-0.2-1.072-0.455-1.607-0.757c-0.021-0.012-0.042-0.024-0.063-0.036c-0.31-0.177-0.765-0.507-1.1-0.759
+                            c-0.245-0.183-0.428-0.326-0.435-0.333c-0.35-0.317-0.89-1.058-0.9-1.078c-0.081-0.141-0.15-0.284-0.205-0.43
+                            c-0.001-0.003-0.002-0.005-0.003-0.008c-0.115-0.309-0.165-0.629-0.138-0.958c-0.086-0.145,0.268-0.885,0.273-0.899
+                            c0.063-0.12,0.541-0.754,0.656-0.869l-4.685,4.701c0.816,1.089,1.734,1.998,2.741,2.732c0.06,0.043,0.121,0.077,0.181,0.119
+                            c2.111,1.483,4.586,2.251,7.252,2.479c0.813,0.069,1.646,0.09,2.493,0.064L506.1,396.071z"/>
+                        <circle id="e-line-1-start_1_" cx="495" cy="391.734" r="0.278"/>
+                    </g>
+                    <g id="i">
+                        <path id="i-line-2" d="M463.133,406.342c-6.717,4.187-13.677,9.322-21.863,8.328l-1.418,3.653c2.376-0.176,4.875-0.987,6.552-1.491
+                            c11.432-3.432,21.289-10.414,31.183-16.839c0,0,8.499-3.285,11.666-4.452s8.812-2.305,8.812-2.305v-0.001
+                            c-0.455-0.57-0.716-1.198-0.66-1.859c-0.438-0.736-1.138-1.39-2.252-1.297c-4.651,0.388-13.462,4.858-18.781,7.979
+                            c-0.604,0.415-1.212,0.823-1.826,1.227"/>
+                        <circle id="i-line-2-start_1_" cx="439.852" cy="416.766" r="0.278"/>
+                        <path id="i-line-1" d="M477.926,367.535c-0.025,0.173-0.151,0.386-0.426,0.655c-3.75,3.689-40.829,35.821-40.829,35.821
+                            c-0.688,3.465-4.99,9.25-2.167,12.631c0.014,0.018,0.03,0.028,0.045,0.046c1.255,1.457,3.231,1.79,5.303,1.637l1.418-3.653
+                            c4.69-11.265,17.271-21.521,25.44-30.581c3.243-3.599,11.104-9.507,12.104-14.307C479.114,368.334,478.719,367.681,477.926,367.535
+                            z"/>
+                        <circle id="i-line-1-start" cx="477.926" cy="368.109" r="0.278"/>
+                    </g>
+                    <g id="r">
+                        <path id="r-line-4_7_" d="M467.317,372.988c-10.365,8.548-19.343,18.407-29.201,27.475c-0.289,0.268-0.586,0.525-0.879,0.787
+                            c-4.083,3.65-8.533,6.906-13.389,9.455c-1.405,0.738-14.699,6.232-14.441,2.917l-3.046,4.078c9.892,2.14,23.452-8.729,30.31-13.689
+                            c0,0,37.079-32.132,40.829-35.821c0.273-0.269,0.399-0.481,0.426-0.655C475.346,367.058,468.505,372.009,467.317,372.988z"/>
+                        <circle id="r-line-4-start_7_" cx="407.778" cy="415.694" r="0.278"/>
+                        <path id="r-line-3_7_" d="M430.909,379.889c-1.238,4.322-7.746,7.812-10.936,10.538c-2.215,1.894-14.111,12.832-17.173,20.272
+                            c-1.176,2.856-1.053,5.201,1.434,6.313c0.686,0.308,1.396,0.528,2.127,0.688l3.046-4.078c0.321-4.15,9.148-10.517,11.929-13.368
+                            c4.366-4.479,9.618-8.873,13.215-14.007c0.428-0.611,0.775-1.217,1.056-1.821L430.909,379.889z"/>
+                        <circle id="r-line-3-start_7_" cx="433.554" cy="381.222" r="0.278"/>
+                        <path id="r-line-2_7_" d="M441.068,358.872c0.039-0.768-0.441-1.349-1.253-1.745c-4.579-2.235-19.896,1.559-14.385,12.696
+                            c0.107,0.215-0.05,0.595-0.412,1.1c-0.137,0.191-0.297,0.397-0.491,0.624c-0.085,0.099-0.183,0.205-0.277,0.31l1.145,1.844
+                            c0.337-0.265,0.673-0.426,1.005-0.53c1.754-0.548,3.379,0.979,4.172,2.948c0.493,1.226,0.67,2.614,0.339,3.769l4.696,4.537
+                            c1.223-2.643,1.142-5.244,0.795-7.969c-0.208-1.629-0.51-3.302-0.688-5.056c-0.566-5.596,4.327-7.334,5.22-11.536
+                            C441.001,359.548,441.051,359.22,441.068,358.872z"/>
+                        <circle id="r-line-2-start_7_" cx="437" cy="356.874" r="0.278"/>
+                        <path id="r-line-1_7_" d="M439.815,357.127c-3.253,3.164-8.882,8.575-14.728,13.908c-0.188,0.171-0.374,0.342-0.562,0.512
+                            c-0.085,0.099-0.183,0.205-0.277,0.31c-2.135,2.355-6.834,6.266-11.912,10.277c-7.714,6.092-16.281,12.401-17.994,13.787
+                            c4.118,3.443,26.843-18.901,31.051-22.22c0,0,0.328-0.263,0.89-0.718c3.033-2.463,12.896-10.558,14.649-13.118
+                            c0.067-0.317,0.117-0.645,0.136-0.993C441.107,358.104,440.627,357.523,439.815,357.127z"/>
+                        <circle id="r-line-1-start_7_" cx="394.908" cy="395.874" r="0.278"/>
+                    </g>
+                    <g id="o">
+                        <circle id="o-line-3-start" cx="392.75" cy="373.605" r="0.141"/>
+                        <path id="o-line-3" d="M392.803,370.646c-2.943-2.381-6.979-3.012-11.179-2.765l-0.646,2.084c0.6-0.087,1.182-0.132,1.741-0.132
+                            c5.496,0,6.824,2.288,6.013,5.482l5.76-2.978C394.028,371.75,393.47,371.185,392.803,370.646z"/>
+                        <circle id="o-line-2-start" cx="334.933" cy="416.066" r="0.141"/>
+                        <path id="o-line-2" d="M394.492,372.337l-5.76,2.978c-0.234,0.923-0.645,1.919-1.189,2.961
+                            c-3.213,6.133-10.969,13.75-13.413,16.093c-9.507,9.116-21.067,17.745-34.215,20.354c-0.298,0.061-0.566,0.089-0.836,0.117
+                            c-1.259,0.136-2.221-0.04-2.926-0.448l-1.361,2.042c1.12,0.338,2.4,0.564,3.875,0.658c0.729,0.047,1.49,0.07,2.31,0.056
+                            c9.441-0.179,19.188-4.456,27.226-9.146c5.949-3.472,26.646-18.021,28.001-29.414C396.469,376.347,395.984,374.227,394.492,372.337
+                            z"/>
+                        <circle id="o-line-1-start" cx="360.359" cy="379.75" r="0.141"/>
+                        <path id="o-line-1" d="M335.83,406.013c3.049-5.929,8.84-10.951,13.666-15.435c4.582-4.256,10.106-9.005,15.609-12.885
+                            l-35.107,23.344c-2.417,7.938-1.499,13.511,4.794,15.397l1.361-2.042C333.768,413.012,334.271,409.045,335.83,406.013z"/>
+                    </g>
+                    <g id="m">
+                        <circle id="m-line-7-start" cx="291.116" cy="416.428" r="0.361"/>
+                        <path id="m-line-7" d="M366.824,371.288c-8.604,3.013-16.79,7.828-23.441,14.076c-4.269,4.01-8.438,7.963-12.842,11.669
+                            c-3.087,2.599-6.287,5.079-9.732,7.356c-5.996,3.968-13.893,9.396-21.502,9.65c-1.49,0.05-2.97-0.079-4.422-0.479l-3.767,3.602
+                            c1.862,0.386,4.247,0.23,6.573-0.147c3.186-0.519,6.259-1.458,7.723-2.017c8.822-3.368,16.627-8.992,24.586-13.963l35.108-23.344
+                            c1.321-0.933,2.644-1.813,3.949-2.627l0.036-0.024l0.009-0.004c4.273-2.654,8.39-4.569,11.878-5.073l0.646-2.084
+                            C376.335,368.192,370.785,369.9,366.824,371.288z"/>
+                        <circle id="m-line-6-start" cx="331.474" cy="368.55" r="0.361"/>
+                        <path id="m-line-6" d="M314.229,393.971c6.099-5.536,16.646-12.605,19.238-21.053c0.102-0.329,0.214-0.657,0.29-0.99
+                            c0.301-1.318,0.163-2.267-0.284-2.934l-7.152,1.684c0.149,0.492-0.214,1.271-0.939,2.24c-3.825,5.115-17.784,15.581-20.252,17.82
+                            c-6.552,5.943-14.23,11.784-17.071,20.531c-1.196,3.685,0.396,5.342,3.06,5.896l3.767-3.602
+                            C298.325,405.717,307.959,399.662,314.229,393.971z"/>
+                        <circle id="m-line-5-start" cx="276.844" cy="399.162" r="0.239"/>
+                        <path id="m-line-5" d="M315.719,372.054c-8.938,5.006-17.959,10.03-26.615,15.509l-11.86,11.725l0.001,0.003
+                            c4.356-3.408,8.749-6.769,13.283-9.973c0.993-0.701,1.986-1.402,2.994-2.086c9.962-6.768,20.688-14.719,32.798-16.553l7.152-1.684
+                            C330.912,365.178,317.962,370.798,315.719,372.054z"/>
+                        <circle id="m-line-4-start" cx="296.111" cy="371.11" r="0.361"/>
+                        <path id="m-line-4" d="M289.104,387.562c1.965-5.892,9.255-9.171,8.711-16.344c-0.003-0.038-0.011-0.071-0.014-0.109l-8.17,2.214
+                            c-3.423,4.452-7.795,8.144-11.846,12.009c-9.115,8.698-18.626,17.121-27.228,26.332c-2.343,2.51-6.754,8.008,0.22,6.394
+                            c4.475-1.036,9.539-5.604,13.136-8.354c4.493-3.435,8.897-6.945,13.333-10.415l-0.001-0.003L289.104,387.562z"/>
+                        <circle id="m-line-3-start" cx="279.966" cy="372.337" r="0.361"/>
+                        <path id="m-line-3" d="M289.654,373.295c-0.008,0.01-0.016,0.02-0.024,0.029l8.17-2.214c-0.054-0.566-0.184-1.057-0.384-1.476
+                            c-2.097-4.381-11.539-1.188-14.685,0l-2.766,3.222c0.795-0.328,2.772-1.07,4.808-1.648c3.231-0.917,6.603-1.413,5.659,0.821
+                            C290.284,372.382,290.037,372.796,289.654,373.295z"/>
+                        <circle id="m-line-2-start" cx="221.239" cy="414.357" r="0.361"/>
+                        <path id="m-line-2" d="M259.472,382.388c-5.37,3.673-10.591,7.575-15.792,11.312c-0.641,0.46-1.282,0.921-1.922,1.375
+                            l-19.797,19.281c0.146-0.104,0.259-0.188,0.33-0.249c6.711-5.834,13.488-11.531,20.484-16.99c2.355-1.837,4.735-3.649,7.146-5.429
+                            c9.34-6.895,19.245-14.385,30.044-18.834l2.766-3.222C274.475,372.751,266.834,377.352,259.472,382.388z"/>
+                        <circle id="m-line-1-start_1_" cx="243.526" cy="390.996" r="0.361"/>
+                        <path id="m-line-1" d="M241.966,394.747c0.975-1.593,2.23-3.137,3.65-4.637l-27.045,16.506c1.764-0.991,3.509-2.03,5.23-3.118
+                            c-1.365,1.756-3.215,3.55-5.022,5.401c-2.253,2.308-4.441,4.706-5.538,7.232c-1.973,4.543,6.693-0.354,8.72-1.774l19.797-19.281
+                            C241.822,394.966,241.898,394.857,241.966,394.747z"/>
+                    </g>
+                    <g id="e">
+                        <path id="e-line-6" d="M258.648,378.327c2.021-1.972,13.701-10.949,7.904-13.116c-7.27-2.717-14.333,7.933-18.425,12.341
+                            c-5.208,5.61-10.082,11.646-15.693,16.863c-10.278,9.555-23.434,16.462-37.065,19.784c-2.62,0.639-10.162,2.093-14.452,0.551
+                            c-0.636-0.229-1.2-0.522-1.667-0.895v2.57c0.539,0.099,1.095,0.176,1.667,0.237c2.418,0.262,5.105,0.221,7.918-0.058
+                            c10.696-1.058,20.517-4.809,29.735-9.99l27.045-16.506C249.621,385.878,254.894,381.991,258.648,378.327z"/>
+                        <circle id="e-line-6-start" cx="179.051" cy="416.031" r="0.199"/>
+                        <path id="e-line-5" d="M177.845,411.133c-0.352-5.458,5.64-11.479,9.497-15.316c0.306-0.305,0.603-0.6,0.878-0.876
+                            c0.004,0.004,0.008,0.008,0.013,0.013l1.721-4.918l-5.002,2.938l-13.599,7.99c-0.072,0.214-0.132,0.418-0.197,0.626
+                            c-2.926,9.346,1.17,13.589,8.095,14.837v-2.571C178.438,413.206,177.921,412.322,177.845,411.133z"/>
+                        <circle id="e-line-5-start" cx="190.754" cy="389.035" r="0.199"/>
+                        <path id="e-line-4" d="M198.056,399.632V396.5c-3.247-0.129-6.297-1.58-6.024-3.971c0.114-0.999,0.806-2.16,2.307-3.458
+                            c2.137-1.848,4.3-3.667,6.505-5.434l-10.889,6.398l-1.721,4.918C190.876,397.916,194.295,399.305,198.056,399.632z"/>
+                        <circle id="e-line-4-start" cx="198.751" cy="399.001" r="0.199"/>
+                        <path id="e-line-3" d="M230.506,376.375c-2.995,4.096-8.794,8.802-9.936,9.749c-3.793,3.149-7.728,6.104-12.369,7.885
+                            c-1.455,0.557-5.211,1.979-8.201,2.39c-0.519,0.07-1.017,0.114-1.473,0.114c-0.158,0-0.314-0.006-0.472-0.013v3.132
+                            c0.64,0.056,1.287,0.091,1.944,0.087c9.922-0.058,21.638-6.61,27.938-11.304c3.315-2.47,8.403-7.228,9.184-12.04H230.506z"/>
+                        <circle id="e-line-3-start" cx="235.303" cy="376.375" r="0.199"/>
+                        <path id="e-line-2" d="M237.023,373.5c-0.214-0.857-0.604-1.701-1.215-2.52c-0.799-1.069-1.871-1.821-3.11-2.345
+                            c-1.39-0.588-2.996-0.874-4.687-0.961l-4.664,2.74c1.822-0.408,3.657-0.594,5.483-0.45c0.483,0.038,0.891,0.111,1.265,0.2
+                            c2.085,0.495,2.517,1.744,2.004,3.335c-0.282,0.876-0.847,1.855-1.592,2.875h6.616C237.278,375.413,237.26,374.449,237.023,373.5z"
+                            />
+                        <circle id="e-line-2-start" cx="225.65" cy="368.75" r="0.199"/>
+                        <path id="e-line-1" d="M170.985,401.18c0.128-0.094,0.259-0.183,0.387-0.276c-0.007,0.021-0.012,0.041-0.02,0.062l29.49-17.327
+                            c1.196-0.958,2.4-1.905,3.628-2.823c5.223-3.905,11.948-8.848,18.876-10.399l4.664-2.74c-4.449-0.229-9.467,0.925-12.616,1.682
+                            c-16.431,3.948-27.118,14.059-39.344,24.781c-12.684,11.123-28.745,23.377-44.328,29.88c-2.192,0.914-10.198,4.28-5.936-0.831
+                            c-1.88,1.747-3.798,1.812-6.569,1.812c-0.049,0.189-0.118,0.381-0.159,0.569c-2.048,9.297,23.022-5.104,24.764-6.183
+                            c9.288-5.755,18.314-11.709,27.113-18.171l-0.003-0.005L170.985,401.18z"/>
+                        <circle id="e-line-1-start" cx="122.218" cy="424.857" r="0.199"/>
+                    </g>
+                    <g id="M">
+                        <g id="M_Humps">
+                            <path id="m-hump-two-right" d="M199.498,338.415c-0.45-0.281-0.938-0.478-1.442-0.64l-3.757,3.559
+                                c1.079,1.007-1.335,3.999-3.851,6.578c-8.483,8.702-17.057,17.319-25.65,25.912c-8.949,8.947-17.945,17.848-26.754,26.934
+                                c-5.928,6.113-16.541,15.503-18.826,24.241c2.771-0.001,4.689-0.064,6.569-1.812c0.004-0.004,0.006-0.008,0.01-0.012
+                                c2.898-3.471,6.281-6.438,9.602-9.493c6.254-5.755,12.555-11.46,18.687-17.345c13.382-12.845,28.48-25.781,39.892-40.432
+                                C196.183,353.073,204.707,341.672,199.498,338.415z"/>
+                            <circle id="m-hump-two-right-start" cx="196.75" cy="338.387" r="0.31"/>
+                            <path id="m-hump-two-left" d="M189.337,338.688c-3.221,1.206-6.289,2.997-8.284,4.303c-15.234,9.969-30.211,20.137-44.66,31.185
+                                c-0.896,0.686-1.798,1.362-2.69,2.055c0.614-0.924,1.263-1.824,1.924-2.713l0,0l-10.297,11.96
+                                c3.432-2.965,6.922-5.878,10.479-8.724c11.915-9.531,24.44-18.413,37.021-26.733c4.852-3.209,9.946-6.153,15.489-7.981
+                                c0.396-0.13,0.789-0.271,1.189-0.389c2.796-0.828,4.241-0.827,4.789-0.315l3.757-3.559
+                                C195.513,336.96,192.362,337.556,189.337,338.688z"/>
+                            <circle id="m-hump-two-left-start" cx="126.75" cy="381.387" r="0.31"/>
+                            <path id="m-hump-one-right" d="M135.627,373.517c6.903-9.287,15.972-16.958,18.951-28.73c0.524-2.071,0.526-3.612,0.151-4.748
+                                c-0.234-0.708-0.611-1.265-1.123-1.669l-4.495,3.758c-0.088,0.904-0.605,2.02-1.214,3.078c-0.64,1.11-1.38,2.155-1.833,2.821
+                                c-6.43,9.437-15.688,17.314-23.627,25.475c-17.438,17.919-36.068,35.197-52.354,54.165c-2.27,2.642,0.982,3.333,2.952,3.333
+                                c1.632-1.016,3.399-1.834,4.879-3.083c4.339-3.664,8.687-7.317,13.001-11.01c8.81-7.54,17.047-15.582,25.518-23.484
+                                c2.897-2.703,5.88-5.34,8.896-7.946L135.627,373.517L135.627,373.517z"/>
+                            <circle id="m-hump-one-right-start" cx="151.883" cy="338.648" r="0.31"/>
+                            <path id="m-hump-one-left" d="M129.811,345.062c-23.516,13.499-44.112,31.711-64.639,49.303c-0.846,0.726-1.693,1.452-2.54,2.175
+                                c0.254-0.953,0.873-1.957,1.678-2.966l-0.024-0.022L33.42,427.19c0.615-0.469,1.066-0.855,1.224-1.022
+                                c3.654-3.865,7.253-7.711,11.177-11.31c5.19-4.764,10.408-9.495,15.663-14.188c3.403-3.038,6.817-6.063,10.26-9.056
+                                c17.882-15.545,36.431-31.482,56.72-43.837c5.239-3.19,11.288-6.561,17.453-7.427c2.579-0.362,3.32,0.492,3.195,1.776l4.495-3.758
+                                C148.918,334.667,133.771,342.788,129.811,345.062z"/>
+                            <circle id="m-hump-one-left-start" cx="33.421" cy="426.682" r="0.367"/>
+                        </g>
+                        <g id="M_Bar_1_">
+                            <path id="mbar" d="M115.575,336.443c-0.907-1.646-2.136-2.273-3.505-2.251c-0.024,0-0.046-0.007-0.07-0.007
+                                c-0.018,0-0.034,0.005-0.052,0.005c-0.142,0.006-0.287,0.024-0.431,0.043c-0.086,0.013-0.172,0.021-0.256,0.041
+                                c-4.171,0.77-9.282,6.598-10.842,8.378C76.428,370.023,52.548,397.49,28.7,424.984c5.539-6.361-2.793,3.354-2.793,3.216
+                                c0,4.014,5.072,0.851,7.514-1.01l30.865-33.641l0.024,0.022c2.147-2.694,5.662-5.426,7.427-7.331
+                                c3.403-3.672,6.807-7.346,10.21-11.019c6.125-6.612,12.249-13.226,18.368-19.843C102.629,352.877,117.468,339.875,115.575,336.443
+                                z"/>
+                            <circle id="mbar-start" cx="112.25" cy="337.417" r="3.232"/>
+                        </g>
+                    </g>
+                    </svg>
+</body>
+</html>
+
+

@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #4C57AC;
+}
+
+svg {
+  display: block;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+// add a class to hide
+#mbar,
+#m-hump-one-left,
+#m-hump-one-right,
+#m-hump-two-left,
+#m-hump-two-right,
+#e-line-1,
+#e-line-2,
+#e-line-3,
+#e-line-4,
+#e-line-5,
+#e-line-6,
+#m-line-1,
+#m-line-2,
+#m-line-3,
+#m-line-4,
+#m-line-5,
+#m-line-6,
+#m-line-7,
+#o-line-1,
+#o-line-2,
+#o-line-3,
+#r-line-1_7_,
+#r-line-2_7_,
+#r-line-3_7_,
+#r-line-4_7_,
+#i-line-1,
+#i-line-2,
+#e-line-5_1_,
+#e-line-4_1_,
+#e-line-3_1_,
+#e-line-2_1_,
+#e-line-1_1_,
+#s-line-1,
+#s-line-2,
+#s-line-3,
+#i_dot {
+  visibility: hidden;
+}
+
+.svg-hidden{
+ // opacity: 0;
+ // fill: red;
+}

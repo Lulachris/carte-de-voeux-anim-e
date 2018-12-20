@@ -1,0 +1,178 @@
+body {
+  background-image: url(2019.svg);
+  background-size: cover;
+}
+
+.star {
+  stroke-dasharray: 320;
+  stroke-dashoffset: 250;
+  animation: star 3s ease-in forwards;
+}
+
+@keyframes star {
+  from {
+    opacity: 0;
+    /* -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); */
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.eanimation {
+  animation: animationFrames linear 1s infinite;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 0%;
+  -webkit-animation: animationFrames linear 1s infinite;
+}
+
+@keyframes animationFrames {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@-moz-keyframes animationFrames {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  20% {
+    -moz-transform: rotate(15deg);
+  }
+  40% {
+    -moz-transform: rotate(-10deg);
+  }
+  60% {
+    -moz-transform: rotate(5deg);
+  }
+  80% {
+    -moz-transform: rotate(-5deg);
+  }
+  100% {
+    -moz-transform: rotate(-5deg);
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(15deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  20% {
+    -o-transform: rotate(15deg);
+  }
+  40% {
+    -o-transform: rotate(-10deg);
+  }
+  60% {
+    -o-transform: rotate(5deg);
+  }
+  80% {
+    -o-transform: rotate(-5deg);
+  }
+  100% {
+    -o-transform: rotate(-5deg);
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  20% {
+    -ms-transform: rotate(15deg);
+  }
+  40% {
+    -ms-transform: rotate(-10deg);
+  }
+  60% {
+    -ms-transform: rotate(5deg);
+  }
+  80% {
+    -ms-transform: rotate(-5deg);
+  }
+  100% {
+    -ms-transform: rotate(-5deg);
+  }
+}
+
+@keyframes ruch {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 200px 400px, -100px 300px;
+  }
+}
+
+@-webkit-keyframes ruch {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 200px 400px, -100px 300px;
+  }
+}
+
+.anim {
+  animation: animationFrames linear 3s infinite;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 0%;
+  -webkit-animation: animationFrames linear 3s infinite;
+}
+
+.movtlo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(http://www.aurainweb.pl/wp-content/uploads/2017/08/snieg-1-e1512733256249.png), url(http://www.aurainweb.pl/wp-content/uploads/2017/08/snieg-2-e1512733339864.png), url(http://www.aurainweb.pl/wp-content/uploads/2017/08/snieg-3-e1512733296108.png);
+  animation: ruch 10s linear infinite;
+}
+
+.tlo {
+  background-color: #e3e3e3;
+}
